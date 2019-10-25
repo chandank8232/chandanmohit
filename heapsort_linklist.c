@@ -51,7 +51,7 @@ int main (int argc, char *argv[])
 
 	printf("Do you want to add more numbers:(y/n)");
 	scanf("%c",&c);
-	if(c=='n')
+	if(c=='n' || c=='N')
 		break;
     }
     printf("Number of nodes added : %d\n",nodes);
